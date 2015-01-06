@@ -1,0 +1,201 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+h1{
+  font-size: 28px;
+  color: #12B88A;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: trebuchet ms;
+}
+
+h2{
+  font-size: 28px;
+  color: #12B88A;
+  text-align: center;
+  font-family: trebuchet ms;
+}
+
+.mkb-thumb{
+  max-width: 32px;
+max-height: 32px;
+margin-left: 1rem;
+
+}
+
+.linkedin-thumb {
+    max-width: 32px;
+max-height: 32px;
+margin-left: 1rem;
+
+}
+
+h4{
+ background:#EEEEEE;
+}
+
+.mkb{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+}
+
+.think{
+  color:#A300FF;
+}
+
+img{
+margin-top: 1rem;
+margin-bottom: 1rem;
+border-radius: 1.2rem;
+max-width: 100%;
+
+}
+
+h4 img {
+    border-style: groove;
+    border-width: 3px;
+
+}
+
+p{
+  color: black;
+ font-family:Trebuchet MS;
+ } 
+
+p.mkb-p{
+  color: #FFF;
+font-size: 18px;
+
+}
+
+a{
+  color:#A300FF;
+  font-family: trebuchet ms;
+}
+
+a.cp1{
+  color:aqua;
+}
+
+a.cp2{
+  color:aqua;
+}
+
+div.col-md-6 a {
+  font-size:21px;
+}
+
+.Resume{
+  font-size:21px;
+  color:#A300FF;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+.Hack{
+ font-size:21px;
+  color:#A300FF; 
+}
+
+h4{
+  text-align: center;
+}
+
+div.col-md-6 p  {
+  text-align: center;
+}
+
+footer .copyright a {
+font-family: mistral;
+font-size: 20px;
+}
+
+footer{
+  background: black;
+}
+
+a:hover{
+  color:#F500FF;
+}
+
+a:hover{
+  color:#F500FF;
+}
+
+div.col-md-6 {
+  margin-top: 5rem;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  /* font-family: "Roboto Slab", serif; */
+  /* font-size: 30px; */
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family:Trebuchet MS;
+  text-align: center;
+}
+section.module p:last-child {
+  margin-bottom: 2rem;
+}
+section.module.content {
+  padding: 40px 0;
+  background: white;
+
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: #FFF;
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 .1em #ECECEC;
+}
+section.module.parallax-1 {
+  background-image: url("../img/demo/_small/beach7.png");
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/beach2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/mccartney.jpg");
+}
+
+@media all and (max-width: 900px) {
+/*   section.module h2 {
+  font-size: 42px;
+} */
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 36px;
+  }
+
+
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 90px;
+    text-shadow: 0 0 .1em #ECECEC;
+  }
+}

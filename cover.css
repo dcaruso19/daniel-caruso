@@ -1,0 +1,286 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color:  #CE00EB;
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+color: #12B88A;
+text-decoration: none;
+
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #3DCC9E;
+  border: 1px solid #fff;
+}
+
+h3, .h3 {
+font-size: 30px;
+}
+
+h1, .h1 {
+font-size: 45px;
+}
+
+.lead {
+font-size: 24px;
+}
+
+.questions p {
+  padding-right: 18rem;
+  padding-left: 18rem;
+}
+
+.questions h1 {
+  font-size: 25px;
+  color: black;
+
+}
+
+.questions h2 {
+  font-size: 25px;
+  color: black;
+}
+
+div.row.intro {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.inner.cover{
+  margin-top: 35rem;
+  margin-bottom: 35rem;
+  color: black;
+}
+
+ul.project.list{
+  margin-top: 20rem;
+
+}
+
+div.site-wrapper-inner{
+background: #E7E7E7;
+}
+
+h3.masthead-brand{
+  color:black;
+}
+
+p{
+  color: black;
+}
+
+
+h2.cover-heading {
+  color: black;
+}
+
+h4{
+  color: black;
+
+}
+
+.questions h1{
+  margin-top: 8rem;
+}
+
+.questions h2{
+  margin-top: 8rem;
+}
+
+.questions p {
+line-height: 25px;
+font-size: 17px;
+}
+
+.thinkful p{
+  padding-left: 8rem;
+padding-right: 8rem;
+
+}
+
+h2.cover-heading{
+margin-bottom:5rem;
+
+}
+
+ul.project.list{
+  padding-left: 0rem;
+}
+
+.think a:hover {
+color: #EEB618;
+text-decoration: none;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+  color: black;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+  color:#00C284;
+  border-bottom: 2px solid #50FFC3;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #00FF99;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+  /*   position: fixed; */
+    top: 0;
+  }
+  .mastfoot {
+    /* position: fixed; */
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 65%;
+  }
+}
