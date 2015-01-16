@@ -1,19 +1,43 @@
 /* ============================================================
   SECTIONS
 ============================================================ */
-h1{
-  font-size: 28px;
-  color: #12B88A;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-family: trebuchet ms;
+h1 {
+font-size: 38px;
+color: #00909C;
+text-align: center;
+margin-bottom: 6rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 h2{
   font-size: 28px;
-  color: #12B88A;
+  color: #34A3AC;
   text-align: center;
-  font-family: trebuchet ms;
+font-family: 'Montserrat', sans-serif;
+}
+
+p.intro1{
+	line-height: 3rem;
+	font-size: 17px;
+}
+
+p.intro2{
+	line-height: 3rem;
+	font-size: 17px;
+}
+
+p.intro3{
+	line-height: 3rem;
+	font-size: 17px;
+}
+
+p.intro4{
+	line-height: 3rem;
+	font-size: 17px;
+}
+
+p{
+	font-size: 15px;
 }
 
 .mkb-thumb{
@@ -23,6 +47,17 @@ margin-left: 1rem;
 
 }
 
+.introduction-section{
+  padding-left: 6rem;
+padding-right: 6rem;
+}
+
+
+.recent{
+  margin-bottom: 4rem;
+margin-top: 15rem;
+}
+
 .linkedin-thumb {
     max-width: 32px;
 max-height: 32px;
@@ -30,9 +65,9 @@ margin-left: 1rem;
 
 }
 
-h4{
+/*h4{
  background:#EEEEEE;
-}
+}*/
 
 .mkb{
   display: block;
@@ -42,7 +77,9 @@ max-width: 100%;
 }
 
 .think{
-  color:#A300FF;
+  color: #084A4F;
+  font-size: 3.5rem;
+ /* margin-top: 12rem;*/
 }
 
 img{
@@ -59,9 +96,12 @@ h4 img {
 
 }
 
+
+
 p{
   color: black;
- font-family:Trebuchet MS;
+ font-family: 'Montserrat', sans-serif;
+ 
  } 
 
 p.mkb-p{
@@ -71,8 +111,12 @@ font-size: 18px;
 }
 
 a{
-  color:#A300FF;
-  font-family: trebuchet ms;
+  color:#00909C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.think-link{
+	color:#084A4F
 }
 
 a.cp1{
@@ -96,7 +140,7 @@ div.col-md-6 a {
 
 .Hack{
  font-size:21px;
-  color:#A300FF; 
+  color:#00909C;
 }
 
 h4{
@@ -120,8 +164,8 @@ a:hover{
   color:#F500FF;
 }
 
-a:hover{
-  color:#F500FF;
+a:hover {
+color: #00D7E8;
 }
 
 div.col-md-6 {
@@ -132,25 +176,39 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
+margin-bottom: 45px;
+/*margin-top: 15rem;*/
+/*font-size: 3rem;*/
   /* font-family: "Roboto Slab", serif; */
   /* font-size: 30px; */
 }
 section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-  font-family:Trebuchet MS;
-  text-align: center;
+margin-bottom: 40px;
+/*font-size: 17px;*/
+font-weight: 300;
+font-family: Trebuchet MS;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
 }
 section.module p:last-child {
   margin-bottom: 2rem;
 }
 section.module.content {
   padding: 40px 0;
-  background: white;
+  background: #F8F8F8;
 
 }
+
+.sut {
+font-size: 15px;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+
+ul.project.list .think {
+  margin-bottom: 0px;
+}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -184,13 +242,73 @@ section.module.parallax-3 {
 /*   section.module h2 {
   font-size: 42px;
 } */
-  section.module p {
+/*  section.module p {
     font-size: 100%;
-  }
+  }*/
   section.module.parallax h1 {
     font-size: 36px;
   }
 
+  h1 {
+font-size: 21px;
+color: #00909C;
+text-align: center;
+margin-bottom: 6rem;
+font-family: 'Montserrat', sans-serif;
+}
+
+.introduction-section {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+p.intro1{
+	font-size: 15px;
+	line-height: 2.5rem;
+}
+
+p.intro2{
+	font-size: 15px;
+	line-height: 2.5rem;
+}
+
+p.intro3{
+	font-size: 15px;
+	line-height: 2.5rem;
+}
+
+p.intro4{
+	font-size: 15px;
+	line-height: 2.5rem;
+}
+
+.sut {
+font-size: 13px;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+section.module p {
+font-size: 13px;
+
+}
+
+h2 {
+font-size: 21px;
+color: #00909C;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+p {
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}
+
+.think {
+color: #084A4F;
+font-size: 2.5rem;
+}
 
 }
 @media all and (min-width: 960px) {
