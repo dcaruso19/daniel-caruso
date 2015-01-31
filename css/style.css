@@ -47,6 +47,27 @@ margin-left: 1rem;
 
 }
 
+.resume{
+  max-width: 32px;
+max-height: 32px;
+margin-left: 1rem;
+
+}
+
+.dl-resume{
+max-width: 35px;
+max-height: 35px;
+margin-left: 1rem;
+
+}
+
+.mail{
+max-width: 38px;
+max-height: 38px;
+margin-left: 5px;
+
+}
+
 .introduction-section{
   padding-left: 6rem;
 padding-right: 6rem;
