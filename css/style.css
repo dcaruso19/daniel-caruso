@@ -117,7 +117,25 @@ h4 img {
 
 }
 
+h3.praise {
+color: #555;
+font-family: "Source Sans Pro";
+line-height: 1.6;
+text-align: center;
+/* margin-bottom: 20rem; */
+font-size: 25px;
+font-weight: 100;
+}
 
+h3.name{
+color: #00909C;
+font-family: "Source Sans Pro";
+line-height: 1.6;
+text-align: center;
+margin-bottom: 20rem;
+font-size: 18px;
+font-weight: 700;
+}
 
 p{
   color: black;
@@ -322,6 +340,12 @@ font-size: 21px;
 color: #00909C;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
+}
+
+h3.praise {
+color: #555;
+font-family: "FreightSans Pro", "Helvetica Neue", Helvetica, Sans-Serif;
+line-height: 1.6;
 }
 
 p {
