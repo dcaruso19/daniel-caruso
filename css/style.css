@@ -88,6 +88,12 @@ max-width: 100%;
 
 }
 
+img.dan-img{
+margin: 0 auto;
+display: block;
+margin-bottom: 5rem;
+}
+
 h4 img {
     border-style: groove;
     border-width: 3px;
