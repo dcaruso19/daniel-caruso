@@ -52,8 +52,10 @@ padding-right: 6rem;
 
 
 .recent{
-  margin-bottom: 4rem;
+margin-bottom: 4rem;
 margin-top: 15rem;
+font-size: 3.5rem;
+color: #084A4F;
 }
 
 .linkedin-thumb {
@@ -94,6 +96,7 @@ display: block;
 margin-bottom: 5rem;
 border-radius: 2rem;
 box-shadow: 5px 5px 5px #888;
+width: 30%;
 }
 
 h4 img {
@@ -108,7 +111,7 @@ font-family: "Source Sans Pro";
 line-height: 1.6;
 text-align: center;
 /* margin-bottom: 20rem; */
-font-size: 25px;
+font-size: 22px;
 font-weight: 100;
 }
 
@@ -117,7 +120,7 @@ color: #00909C;
 font-family: "Source Sans Pro";
 line-height: 1.6;
 text-align: center;
-margin-bottom: 20rem;
+margin-bottom: 10rem;
 font-size: 18px;
 font-weight: 700;
 }
